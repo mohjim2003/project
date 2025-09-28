@@ -1,0 +1,60 @@
+
+Task A1: sizeSteps
+  Should have 7 rewrite steps, i.e., the list should have 7 elements. [✔]
+  Every element should evaluate to 2. [✔]
+Task A2: display
+  Should not show constructor names [✔]
+    +++ OK, passed 100 tests.
+Task A3: value
+  Aces have the same value: [✔]
+  An ace and king should be 21: [✔]
+  A single ace is 11: [✔]
+   Ace of Clubs 
+ Queen of Clubs 
+ Ace of Hearts 
+ 3 of Hearts 
+ 4 of Hearts 
+ should be 19: [✔]
+Task A4: gameOver and winner
+  A value over 21 should be bust, otherwise not: [✔]
+    +++ OK, passed 100 tests.
+  Test winner [✔]
+    +++ OK, passed 100 tests.
+
+Finished in 0.1968 seconds
+9 examples, 0 failures
+
+Task B1: fullDeck
+  should have 52 cards: [✔]
+  should have 13 hearts: [✔]
+  should have 13 clubs: [✔]
+  should have 13 diamonds: [✔]
+  should have 13 spades: [✔]
+  should have 4 cards of each rank: [✔]
+Task B2: draw
+  should throw an error on an empty deck: [✔]
+  should move a card from the deck to the hand: [✔]
+    +++ OK, passed 100 tests.
+Task B3: playBank
+  should always draw a card if the value is below 16 [✔]
+    +++ OK, passed 100 tests.
+  should not draw a card if the value is over 16 [✔]
+Task B4: pick and shuffle
+  pick 0.0 should select the first card of a non-empty deck [✔]
+    +++ OK, passed 100 tests.
+  pick 1.0 should select the last card of a non-empty deck [✔]
+    +++ OK, passed 100 tests.
+  the picked card should be in the deck [✔]
+    +++ OK, passed 100 tests.
+  shuffle should not add or remove cards [✔]
+    +++ OK, passed 100 tests.
+  shuffle should change the order [✔]
+    +++ OK, passed 100 tests.
+Task B5: properties
+  validate prop_shuffle [✔]
+    +++ OK, passed 100 tests.
+  validate prop_size_shuffle [✔]
+    +++ OK, passed 100 tests.
+
+Finished in 0.1642 seconds
+17 examples, 0 failures

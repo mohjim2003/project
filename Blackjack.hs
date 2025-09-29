@@ -1,14 +1,4 @@
-{- |
-Module      : Lab2
-Description : Skeleton for lab 2: Blackjack
-Copyright   : (c) TDA555/DIT441, Introduction to Functional Programming
-License     : BSD
-Maintainer  : alexg@chalmers.se
-Stability   : experimental
 
-Authors     : <Carl Sahle, Mohamed Hamid>
-Lab group   : <52>
--}
 
 module Blackjack where
 

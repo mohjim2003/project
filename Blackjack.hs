@@ -163,5 +163,5 @@ implementation = Interface
   }
 
 main :: IO ()
-main = runGame implementation   -- follow the instructions on Canvas
+main = runGame implementation   -- 
 
